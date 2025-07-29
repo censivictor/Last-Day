@@ -55,7 +55,6 @@
     </div>
   </div>
   <script>
-    // Data final: 08 de agosto de 2025, 00:00 BRT (-03)
     const endDate = new Date('2025-08-08T00:00:00-03:00');
 
     function updateTimer() {
@@ -81,10 +80,8 @@
       document.getElementById('seconds').innerText = seconds.toString().padStart(2, '0');
     }
 
-    // Atualizar o timer a cada segundo
     setInterval(updateTimer, 1000);
 
-    // Chamar a função uma vez para iniciar
     updateTimer();
   </script>
 </body>
