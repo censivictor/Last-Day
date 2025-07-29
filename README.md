@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Último Dia</title>
   <style>
     body {
@@ -38,7 +43,8 @@
       color: #666;
     }
   </style>
-  
+</head>
+<body>
   <div id="container">
     <div id="title">O ÚLTIMO DIA</div>
     <div id="timer">
@@ -48,7 +54,6 @@
       <span class="time-unit"><span id="seconds">00</span><br><span class="label">Segundos</span></span>
     </div>
   </div>
-  
   <script>
     const endDate = new Date('2025-08-08T00:00:00-03:00');
 
@@ -79,3 +84,5 @@
 
     updateTimer();
   </script>
+</body>
+</html>
